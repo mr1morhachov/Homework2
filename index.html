@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    
+<head lang="uk">
+    <meta charset="UTF-8">
+    <title>My Cart</title>
+
+
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+    
+<body>
+<div class="container">
+    <div class="board-main">
+        <div class="board1">
+        <div class="board-search">
+            <div class="block-search">
+        <input class ="searchbar" type="text" placeholder="Product Name" value ="">
+            <p class="tool" data-tooltip="Add an item">    
+        <button class="button-search"
+                onclick="alert('Unsuppoerted Operation!')">
+            ADD
+        </button>
+                </p>
+                 </div>
+            </div>
+        <div class="board-item">
+            <span class="text-product">Tomatoes</span>
+            <div class="buttons-number">
+                <p class="tool" data-tooltip="Remove 1 item">
+                <button class="button-minus">-</button>
+                    </p>
+                 <span class="label-amount">3</span>
+                    <p class="tool" data-tooltip="Add 1 item">
+                <button class="button-plus">+</button>
+                        </p>
+            </div>
+            <div class="buttons-product">
+                <p class="tool" data-tooltip="Buy">
+                <button class="button-bought">Bought</button>
+                </p>
+                <button class="button-delete">
+                    <p class="tool" data-tooltip="Delete">
+                <span class="text-white">x</span>
+                    </p>
+                </button>
+            </div>
+        </div>
+        <div class="board-item">
+            <span class="text-product">Potatoes</span>
+            <div class="buttons-number">
+                <p class="tool" data-tooltip="Remove 1 item">
+                <button class="button-minus">-</button>
+                </p>
+                 <span class="label-amount">5</span>
+                <p class="tool" data-tooltip="Add 1 item">
+                <button class="button-plus">+</button>
+                </p>
+            </div>
+            <div class="buttons-product">
+                <p class="tool" data-tooltip="Buy">
+                <button class="button-bought">Bought</button>
+                </p>
+                <button class="button-delete">
+                    <p class="tool" data-tooltip="Delete">
+                <span class="text-white">x</span>
+                    </p>
+                </button>
+            </div>
+        </div>
+        <div class="board-item">
+            <span class="text-product">Apples</span>
+            <div class="buttons-number">
+                <p class="tool" data-tooltip="Remove 1 item">
+                <button class="button-minus">-</button>
+                </p>
+                 <span class="label-amount">2</span>
+                <p class="tool" data-tooltip="Add 1 item">
+                <button class="button-plus">+</button>
+                </p>
+            </div>
+            <div class="buttons-product">
+                <p class="tool" data-tooltip="Buy">
+                <button class="button-bought">Bought</button>
+                </p>
+                <button class="button-delete">
+                    <p class="tool" data-tooltip="Delete">
+                <span class="text-white">x</span>
+                    </p>
+                </button>
+            </div>
+        </div>
+    </div>
+        <div class="board2">
+        <div class="block">
+        <span class="text">Left</span>
+        <div class="products-left">
+            <div class="panel-amount">
+                Tomatoes
+                <div class="icon-amount">3</div>
+            </div>
+            <div class="panel-amount">
+                Potatoes
+                <div class="icon-amount">5</div>
+            </div>
+            <div class="panel-amount">
+                Apples
+                <div class="icon-amount">2</div>
+            </div>
+            </div>
+            </div>
+        <div class="block">
+        <span class="text">Bought</span>
+        <div class="products-bought"> </div>
+        </div>
+    </div>
+        <div class="badge">
+            <span class="text-badge"> Buy List </span>
+            <div class="hidden">Text</div>
+                <div class="badge-block">
+            <span> Created By: </span>
+            <span> Illya Morhachov </span>
+                </div>
+        </div>
+    </div>
+</div>
+</body>
+    
+</html>
